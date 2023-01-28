@@ -1,0 +1,45 @@
+.jogo h3{
+    margin: 1.5em 0 1.2em 0;
+    font-size: 1.14em;
+}
+
+.jogo h3 span{
+    color: yellow;
+    
+}
+
+.word{
+   display: flex;
+   padding: 20px;
+   border: 20px solid yellow;
+   margin: 1.5em ;
+    
+}
+
+.letter, .blacksquare{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    line-height: 1.4;
+    font-weight: bolder;
+    font-size: 70px;
+    text-transform: uppercase;
+    color: black;
+    background-color: white;
+    
+}
+
+form{
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+
